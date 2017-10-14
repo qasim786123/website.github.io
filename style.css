@@ -1,0 +1,39 @@
+html, body{
+  height:100%;
+  margin:0;
+}
+
+.gif-container{
+  background: url(https://giphy.com/gifs/11Mwsu0GYrXqw0);
+  background-size: cover;
+  height: 100%;
+}
+
+
+
+
+.main{
+  position:absolute;
+  left:70px;top:100px;right:0;bottom:0px;
+}
+
+.navigationBarUI{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  }
+  .li a{
+    display:block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.navigationBarListItems{
+  float: left;
+}
+  .navigationBarList a:hover{
+    background-color: #111;
+  }
